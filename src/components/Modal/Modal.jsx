@@ -8,7 +8,8 @@ export const Modal = ({ image, onClose, isOpen }) => {
       justifyContent: 'center',
       alignItems: 'center',
       zIndex: '2',
-      backdropFilter: 'blur(8px)',
+      backgroundColor: 'rgba(255,255,255,0.35)',
+      backdropFilter: 'blur(12px)',
     },
     content: {
       display: 'flex',
