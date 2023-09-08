@@ -8,6 +8,7 @@ export const Modal = ({ image, onClose, isOpen }) => {
       justifyContent: 'center',
       alignItems: 'center',
       zIndex: '2',
+      backdropFilter: 'blur(8px)',
     },
     content: {
       display: 'flex',
