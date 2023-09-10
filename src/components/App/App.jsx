@@ -123,6 +123,10 @@ export const App = () => {
   };
 
   useEffect(() => {
+    if (query === '') {
+      return;
+    }
+    console.log('hello');
     fetchData();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [query, page]);
